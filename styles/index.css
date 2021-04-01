@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background-color: #364547;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: #0d0d0d;
+}
+main {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+}
+.cell {
+  float: left;
+  width: 25px;
+  height: 25px;
+  background-color: #ccc;
+  flex: 1;
+}
+#container {
+  width: 500px;
+  height: 500px;
+  display: flex-grid;
+  border: 1px solid #fff;
+  flex-direction: row;
+  grid-row: auto;
+}
+@media only screen and (min-width: 700px) {
+  body {
+    padding: 30px 50px;
+  }
+}
